@@ -137,12 +137,15 @@ ul p {
   font-weight: normal;
 }
 
-@media only screen and (max-width: 400px){
+@media only screen and (max-width: 430px){
+header h1{
+  font-size: 25px;
+}
 section.colors ul li {
   font-size: 10px;
   display: block;
   border: 1px solid black;
-  margin: 50px 100px;
+  margin: 5px 100px;
   text-align: center;
 }
 }
@@ -154,6 +157,8 @@ section.colors ul li {
   border: 1px solid black;
   margin: 50px 100px;
   text-align: center;
+}
+}
 }
 }
 
