@@ -1,0 +1,140 @@
+header h1{
+  color: beige;
+  text-align: center;
+  font-weight: bold;
+  font-size: 50px;
+  font-family: 'Nunito Sans', 'san-serif';
+}
+.banner {
+  background-image: linear-gradient(white, rgb(50, 0, 38));
+  padding: 40px 20px;
+  border-radius: 1em;
+  }
+section {
+  border: 2px solid purple;
+  border-radius: 1em;
+} 
+section h2 {
+  color: black;
+  font-weight: 500;
+  font-size: 25px;
+  padding: 10px 10px;
+  text-align: center;
+}
+section ul li {
+  font-size: 20px;
+  display: inline-block;
+  border: 1px solid black;
+}
+section.fonts ul li {
+  display: block;
+  font-family: Tomorrow;
+  font-weight: normal;
+  font-size: 20px;
+  border: none;
+}
+/*Text styles Section*/
+section.textstyles {
+   font-size:25px;
+   font-weight: bold;
+}
+section.textstyles ul li {
+  font-family: 'Source Code Pro';
+  font-weight: normal;
+  font-size: 15px;
+  border: none;
+  display: list-item;
+  margin: 0px 20px;
+}
+/*Nunito Sans Style section*/
+section.fonts ul li.nun {
+   font-family: 'Nunito Sans', 'san-serif';
+   font-weight: bold;
+   text-decoration: underline;
+}
+section.fonts ul p#nuns {
+  font-family: 'Nunito Sans', 'san-serif';
+}
+/*Poppins style section*/
+section.fonts ul li.pop {
+   font-family: poppins, 'san-serif';
+   font-weight: bold;
+   text-decoration: underline;
+}
+section.fonts ul p#pops {
+  font-family: poppins, 'san-serif';
+}
+/*Source Code Pro style section*/
+section.fonts ul li.scp {
+   font-family: 'Source Code Pro', 'san-serif';
+   text-decoration: underline;
+   font-weight: bold;
+}
+section.fonts ul p#scps {
+  font-family: 'Source Code Pro', 'san-serif';
+}
+/*Tomorrow style section*/
+section.fonts ul li.tom {
+   font-family: tomorrow, 'san serif';
+   text-decoration: underline;
+   font-weight: bold;
+}
+section.fonts ul p#toms {
+  font-family: tomorrow, 'san-serif';
+}
+/*Color Sheet styling*/
+.styles {
+  text-align: center;
+  margin: 5px 20px;
+  width: 20%;
+  padding: 5px 10px;
+  box-sizing: border-box;
+}
+.colors {
+ font-family: Poppins;
+}
+.fonts {
+   font-family: Tomorrow,monospace;
+   font-weight: bold;
+}
+.textstyles {
+  font-family: 'Source Code Pro', monospace;
+  font-weight: bold;
+}
+.H1 {
+  font-size: 25px;
+  padding: 0px 20px;
+}
+.H2 {
+  font-size: 20px;
+  padding: 0px 20px;
+}
+.P {
+  font-size: 15px;
+  font-weight: normal;
+  padding: 0px 20px;
+}
+#coolblue {
+  background-color: #2d5dcc;
+  color: white;
+}
+#pink {
+  background-color: #d957d9;
+}
+#mintgreen {
+  background-color: #4fe0b0;
+}
+#beige {
+  background-color: #efd9ca;
+}
+#scp {
+   font-family: 'Source Code Pro', 'san-serif';
+}
+#tom {
+   font-family: tomorrow, 'san-serif';
+}
+ul p {
+  font-weight: normal;
+}
+
+
